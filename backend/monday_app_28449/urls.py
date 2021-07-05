@@ -46,9 +46,9 @@ urlpatterns = [
     path("tasker_business/", include("tasker_business.urls")),
 ]
 
-admin.site.site_header = "Monday App"
-admin.site.site_title = "Monday App Admin Portal"
-admin.site.index_title = "Monday App Admin"
+admin.site.site_header = "Sample_Application_Monday"
+admin.site.site_title = "Sample_Application_Monday Admin Portal"
+admin.site.index_title = "Sample_Application_Monday Admin"
 
 # swagger
 api_info = openapi.Info(
